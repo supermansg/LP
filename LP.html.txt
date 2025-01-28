@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header .logo {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .content-section {
+            margin-bottom: 2rem;
+        }
+
+        .content-section h2 {
+            font-size: 1.8rem;
+            color: #4CAF50;
+            margin-bottom: 0.5rem;
+        }
+
+        .content-section p {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        .form-section {
+            margin: 2rem 0;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        form input, form textarea, form button {
+            display: block;
+            width: 100%;
+            margin: 0.5rem 0;
+            padding: 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background: #4CAF50;
+            color: #fff;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #f1f1f1;
+        }
+
+        footer a {
+            margin: 0 0.5rem;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Your Logo</div>
+        <h1>Your Business Name</h1>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>About Our Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in dolor ac arcu congue pharetra.</p>
+        </section>
+
+        <section class="form-section">
+            <h2>Contact Us</h2>
+            <form action="YOUR_WEB_APP_URL" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Connect with us:</p>
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">LinkedIn</a>
+        <p>&copy; 2025 Your Business Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
